@@ -13,7 +13,7 @@ import UtilityPackage.Utility;
 
 public class KiteLogIn extends Utility
 {
-	//login
+
 	@FindBy(xpath="//input[@type='text']")
 	private WebElement username;
 	@FindBy(xpath="//input[@type='password']")
