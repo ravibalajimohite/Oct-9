@@ -13,6 +13,7 @@ import UtilityPackage.Utility;
 
 public class KiteLogIn extends Utility
 {
+	//login
 	@FindBy(xpath="//input[@type='text']")
 	private WebElement username;
 	@FindBy(xpath="//input[@type='password']")
@@ -22,7 +23,7 @@ public class KiteLogIn extends Utility
 
 
 	public KiteLogIn(WebDriver driver)
-	{
+	{  
 		PageFactory.initElements(driver, this);
 	}
 	public String sendUsername() throws EncryptedDocumentException ,IOException 
